@@ -21,6 +21,7 @@ public class LoginWithNoData {
 			    if(driver.findElements( By.id("center_column") ).size() != 0) {
 			    	System.out.println(driver.findElement(By.xpath("//*[@id=\"center_column\"]/div[1]/ol/li/text()")));		    	
 			    }
+				System.out.println("Test case result: Pass!"); 
 
 	}
 

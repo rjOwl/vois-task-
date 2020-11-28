@@ -56,7 +56,7 @@ public class RegisterMandatoryFields {
 			  driver.findElement(By.xpath("//*[@id='phone']")).sendKeys("250250250");
 			  
 			  driver.findElement(By.id("submitAccount")).click();
-		
+				System.out.println("Test case result: Pass!"); 
 	}
 
 }

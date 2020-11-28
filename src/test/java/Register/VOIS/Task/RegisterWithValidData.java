@@ -82,7 +82,7 @@ public class RegisterWithValidData {
 		  
 		  driver.findElement(By.id("submitAccount")).click();
 
-		 
+		 System.out.println("Test case: Pass!");
 		 
 
 	}

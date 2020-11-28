@@ -46,6 +46,8 @@ public class CartCheckOut {
 			    driver.findElement(By.cssSelector("button[name=\"processCarrier\"] > span")).click();
 			    driver.findElement(By.cssSelector("a.cheque > span")).click();
 			    driver.findElement(By.cssSelector("button.button.btn.btn-default.button-medium > span")).click();
+
+			    System.out.println("Test case result: Pass!"); 
 	}
 
 }
